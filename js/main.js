@@ -1,7 +1,7 @@
 
 
 let nombreProfe = prompt ("Hola Profesor, me permite su nombre? ");
-console.log("Nombre del profesor: "+nombreProfe);
+
 soloLetra (nombreProfe);
 
 
@@ -82,6 +82,7 @@ do {
 
 }while(nombreAlumno!="ESC");
 alert ("- El informe se mostrara por consola -");
+console.log("Nombre del profesor: "+nombreProfe);
 
 // SALIDA DE DATOS
 

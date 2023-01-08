@@ -72,10 +72,10 @@ do {
     }
     parseInt(promedio=acumulador/3);
     if(promedio>=7){
-        alert("El alumno aprobo el año");
+        alert("El alumno aprobo el año con un promedio de "+promedio);
         contadorAprobados++;
     }else{
-        alert("El alumno debe recuperar la materia");
+        alert("El alumno obtuvo un promedio de "+parseInt(promedio)+" y debe recuperar la materia");
         contadorDesaprobados++;
     }
     totalAlumnos++;

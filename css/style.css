@@ -1,0 +1,8 @@
+.divReset {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    font-family: sans-serif;
+    text-decoration: none;
+    color: Black;
+}
